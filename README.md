@@ -70,7 +70,7 @@ npm run build
 
 ## Ссылка на проект
 
-* []
+* [https://news-feed-ebon.vercel.app/]
 
 ## Документация
 
