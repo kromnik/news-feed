@@ -16,7 +16,7 @@ interface NewsCardProps {
 export const NewsCard: FC<NewsCardProps> = ({ title, body, tags, reactions }) => (
   <Card style={{ marginBottom: 16 }}>
     <Title level={4}>{title}</Title>
-    <Paragraph ellipsis={{ rows: 3 }}>{body}</Paragraph>
+    <Paragraph ellipsis={{ rows: 3 }} style={{textAlign: 'start'}}>{body}</Paragraph>
     <Space size={[0, 8]} wrap>
       {tags.map((tag) => (
         <Tag key={tag}>{tag}</Tag>
